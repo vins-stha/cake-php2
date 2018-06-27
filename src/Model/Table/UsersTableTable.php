@@ -37,7 +37,7 @@ class UsersTableTable extends Table
     }
 
       /**
-     * Default validation rules.
+     * Default validation rules goes here
      *
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator

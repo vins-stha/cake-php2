@@ -4,7 +4,6 @@ use Cake\ORM\Table;
 use Cake\Validation\Validator;
 
 
-
  class BooksTable extends Table{
 
   public function initialize(array $config)
