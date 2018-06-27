@@ -20,7 +20,7 @@ use Cake\Http\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
 
 /**
- * Static content controller
+ * Static content controller//
  *
  * This controller will render views from Template/Pages/
  *

@@ -25,7 +25,7 @@ class BookController extends AppController {
 
   public function create(){
     $this->set("title","Insert New Book");
-//    print_r($this->request->getData());
+////    print_r($this->request->getData());
     $book = $this->Books->newEntity();
     if($this->request->is('post')){
       $book = $this->Books->patchEntity($book, $this->request->getData());

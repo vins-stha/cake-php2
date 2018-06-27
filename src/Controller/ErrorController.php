@@ -17,7 +17,7 @@ namespace App\Controller;
 use Cake\Event\Event;
 
 /**
- * Error Handling Controller
+ * Error Handling Controller//
  *
  * Controller used by ExceptionRenderer to render error responses.
  */
