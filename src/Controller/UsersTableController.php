@@ -108,7 +108,7 @@ class UsersTableController extends AppController
         $this->Flash->success('Greato!!');
         $this->Auth->setUser($user);
       //  debug($this->Auth->setUser($user));
-        return $this->redirect($this->Auth->redirectUrl());
+          return $this->redirect($this->Auth->redirectUrl());
         //$this->redirect(['action' =>'index']);
       }else{
         $this->Flash->error('Sorry Bro!!');
