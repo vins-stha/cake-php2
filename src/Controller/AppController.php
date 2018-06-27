@@ -50,7 +50,8 @@ class AppController extends Controller
             'authenticate' =>[
               'Form' =>[
                 'fields'=>[
-                  'username' =>'email',
+                  //'username' =>'email',
+                  'username'=>'email',
                   'password' =>'password'
                 ]
               ]
